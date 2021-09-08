@@ -1,0 +1,57 @@
+.container-fluid {padding: 0;}
+.paddingTB {padding: 20px 0;}
+.bg-light {
+    background-color: #1C232F;
+}
+h1, h2, h3, h4 {
+	color: darkgoldenrod;
+	text-align: center;
+}
+h1 {
+	margin: 50px 0px;
+}
+.bgFooter {
+	background-color: #1C232F;
+}
+a {
+	color: darkgoldenrod;
+	font-size: 20px;
+}
+a:hover {
+	color: white;
+}
+p {
+	font-family: sans-serif;
+}
+.formulario {
+	margin: 50px 350px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.formulario {
+		margin: 30px 200px;
+	}
+}
+@media only screen and (max-width:767px) {
+	.formulario {
+		margin: 20px 30px;
+	}
+}
+.boton {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+/*producto*/
+.contenedorProducto {
+ margin: 0 50px 50px 50px;
+}
+.textoProducto {
+	padding: 30px 0 30px 0;
+}
+.fotoGaleria {
+	
+	transition: all 1s;
+}
+.fotoGaleria:hover {
+	transform: scale(1.1,1.1);
+}
